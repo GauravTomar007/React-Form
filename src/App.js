@@ -34,8 +34,10 @@ function App() {
   }
 
   return (
+    
     <div className="App">
       <form className="form-container" onSubmit={handleSubmit}>
+      <h2 className="form-title">User Registration Form</h2>
         <div className="form-group">
           <label htmlFor="firstName">First Name</label>
           <input
